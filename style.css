@@ -1,0 +1,46 @@
+body {
+    font-size: 22px;
+    line-height: 32px;
+    /* color: #ffffff; */
+   /* word-wrap: break-word !important;*/
+    font-family: "Open Sans", sans-serif;
+}
+nav {
+    margin: 50px 0;
+    background-color: rgb(55, 55, 244);
+}
+nav ul{
+    display: flex;
+    position: relative;
+    list-style: none;
+}
+nav ul li {
+    padding: 10px;
+    margin-left: 100px; 
+}
+nav ul li a {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    line-height: 60px;
+}
+nav .log {
+    margin-left: 0;
+}
+main {
+    display: flex;
+}
+#submitInfo {
+    border-width: 3px;
+    border-style: solid;
+    height: 900px;
+   align-items: center;
+    display: flex;
+    background-color: #b9d8f8;
+    padding: 100px;
+    margin-left: 50px;
+    border-radius: 20px;
+    width: 200px;
+    overflow: scroll;
+}
